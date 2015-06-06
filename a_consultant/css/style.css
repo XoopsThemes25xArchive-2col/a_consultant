@@ -1,0 +1,270 @@
+html, body {
+	background:#f6f4e4 url(../img/bgr_main.png) repeat-x left top;
+	color: #6B6854; 
+	margin: 0; 
+	padding: 0; 
+	font:14px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+table {width: 100%;}
+table td {padding: 0; border-width: 0; vertical-align: top; }
+
+a {color: #000;font-size: 13px;text-decoration: none; font-weight: bold;font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;}
+a:hover {color: #7F0A5F;text-decoration: none;font-weight: bold; }
+
+h1 {font-size:1.4em;}
+h2 {font-size:1.3em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+h5 {font-size:1em;}
+ul { margin: 2px; padding: 2px; list-style: disc inside; text-align: left;}
+ol { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; color: #2A75C5;}
+
+input.formButton {}
+
+.item {border: 1px solid #666;}
+.itemHead {padding: 3px; background-color: #2A75C5; color: #fff;}
+.itemInfo {text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-size: 1.2em; font-weight: bold; font-variant: small-caps; color: #fff; background-color: transparent;}
+.itemPoster {font-size: .9em; font-style:italic;}
+.itemPostDate {font-size: .9em; font-style:italic;}
+.itemStats {font-size: .9em; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 1.3em; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef;}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+
+#topPanel{
+	height:					125px;
+	width:					240px;
+	background:             url(../img/left-top.jpg) no-repeat right top;
+	}
+#topPanel img{
+	width: 160px;
+	height: 39px;
+	margin: 30px 0pt 0pt 37px;
+}
+#header{width:451px; float:left;margin:0;margin-bottom:30px;}
+#header{width:438px; height:124px; background:url(../img/header.jpg) 0 0 no-repeat #D33F9F; color:#fff; font:20px/13px Georgia, "Times New Roman", Times, serif; padding:37px 0 0 13px;}
+#header span{font:13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+/*--Menu--*/
+#linkone{width:240px; height:231px;list-style-type:none;margin:0;display:block; background:url(../img/menu-bg.jpg) 0 0 no-repeat; padding:28px 0 0;}
+#linkone li{width:118px; height:27px; position:relative; margin:0 auto; background:url(../img/dot.gif) 0 100% repeat-x;}
+#linkone li a{width:96px; height:26px; display:block; background:url(../img/arrow-normal.gif) 0 50% no-repeat #F6F4E4; color:#8F8C73; font:13px/26px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; padding:0 0 0 22px; text-decoration:none;}
+#linkone li a:hover{background:url(../img/arrow-normal.gif) 0 50% no-repeat #F6F4E4; color:#7F0A5F; text-decoration:none;}
+#linkone li.home{width:96px; height:27px; display:block; background: url(../img/homebg.gif) 0 0 no-repeat #F6F4E4; color:#7F0A5F; font:13px/26px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0 0 0 22px;}
+#linkone li.contact{background:none;}
+
+#LpPanel{width:222px; height:173px; position:relative; margin:0 auto; background:url(../img/formbg.gif) 0 0 no-repeat #ABA894; color:#fff;}
+#LpPanel input{width:143px; height:17px; margin:3px 0 2px 35px; }
+#LpPanel label{width:143px; height:18px; margin:2px 0 0 35px; font:12px/15px Arial, Helvetica, sans-serif; font-weight:bold;}
+
+#LpPanel input.button{width:51px; height:17px; float:left; background:url(../img/button.gif) 0 0 no-repeat #FEFEFE; color:#fff; font-size:12px; font-weight:bold; line-height:18px; border:none; padding:0 10px 0 0;  margin:3px 10px 2px 28px; }
+
+#LpPanel h2{width:150px; height:37px; display:block; background:url(../img/memberbg.gif) 0 0 no-repeat #D5D2BC; color:#fff; font-size:17px;padding:10px 0 0 65px;vertical-align:center;}
+#LpPanel #register{width:100px; height:24px; float:left; margin:3px 0 0; }
+#LpPanel #register a{display:block; background: url(../img/arrow4.gif) right 70% no-repeat #ABA894; color:#fff; font-size:14px; padding:3px 5px 0 0;font-size: 1em; text-decoration:none;}
+#LpPanel #register a:hover{text-decoration:underline;}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#menu a span {float:none;}
+/* End IE5-Mac hack */
+#menu a:hover span, #menu a.active span {color:#000;}
+#menu a:hover , #menu a.active{background-position:0% -42px;}
+#menu a:hover span , #menu a.active span{background-position:100% -42px;}
+
+
+	
+#xo-content{width: 691px;}
+
+#sideBar {width: 240px; font-size:1em;background:url("../img/bgr_sidebar_widgets.png") no-repeat center top;}
+#sideBar th {background-color: #2A75C5; color: #fff; vertical-align: middle;}
+#sideBar .blockTitle{font-size:1.7em;text-transform:lowercase;font-family:Georgia, "Times New Roman", Times, serif;padding: 3px; color: #8F146E; font-weight: normal; margin-top: 0; margin-right: 0;  margin-left: 0; }
+#sideBar .blockContent{border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ddd; padding: 3px; margin-right: 0;  margin-left: 0; margin-bottom: 2px; line-height: 1.2em;}
+
+
+#centercolumn {width: 451px;font-size: 1em;}
+#centercolumn fieldset {border:0;}
+
+#centerCcolumn, #bottomCcolumn {padding: 0 3px 1px 3px;}
+
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {background:url(../img/icon1.jpg) 0 0 no-repeat #F6F4E4; color:#8F146E; font-size:24px; line-height:36px; padding:0 0 0 65px; margin:29px 0 0 9px;}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent {border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ddd; padding: 3px; margin-right: 0;  margin-left: 0; margin-bottom: 2px; line-height: 1.2em;}
+
+#centerLcolumn, #bottomLcolumn, #centerRcolumn, #bottomRcolumn {
+        width: 50%; padding: 0 3px 0 0;
+}
+#centerLcolumn .blockTitle, #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {
+        padding: 3px; color: #8F146E; font-weight: bold; margin-top: 0;
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent, #bottomLcolumn .blockContent, #bottomRcolumn .blockContent {
+        border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ddd; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 1.2em;
+}
+
+#content {text-align: left; padding: 8px;width:440px;overflow: auto;}
+
+
+#footerdes {background: url(../img/footerbg.png) repeat-x top; font-size:.9em;color:#fff; vertical-align : middle; text-align:center;padding:20px;}
+#footerdes a{color:#fff;font-weight:bold;text-decoration: underline;}
+
+#mainmenu a {display: block; margin: 0; padding: 4px;}
+#mainmenu a.menuMain:hover {background-color: #fff;text-decoration: none;background: url(../img/ico1.gif) no-repeat left center;}
+#mainmenu a.menuTop {background: url(../img/ico1.gif) no-repeat left center;padding-left: 15px;}
+#mainmenu a.menuMain {background: url(../img/ico.gif) no-repeat left center;padding-left: 15px;}
+#mainmenu a.menuSub {padding-left: 9px}
+
+#usermenu {        font-size : .9em;}
+#usermenu a {background-color: #e6e6e6; display: block; margin: 0; padding: 2px; font-weight : normal;}
+#usermenu a:hover {background-color: #fff;text-decoration: none;}
+#usermenu a.menuTop {border-top: 1px solid #c0c0c0;}
+#usermenu a.highlight {background-color: #fcc;}
+
+
+caption {font-weight: bold;}
+th, thead, .itemHead{background-color: #333; font-weight: bold; padding : 6px; color: #fff; vertical-align : middle;text-align:center;}
+.outer {border: 1px solid #c0c0c0;}
+.head {background-color: #C9C9C9; padding: 5px; font-weight: bold;}
+.even {background-color: #EDEDED; padding: 5px;border-bottom:1px solid #C9C9C9}
+.odd {background-color: #DFDFDF; padding: 5px;}
+.foot {background-color: #C9C9C9; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #EDEDED; padding: 5px;}
+tr.odd td {background-color: #DFDFDF; padding: 5px;}
+tr.foot td {background-color: #c2cdd6; padding: 5px; color:inherit; font-weight: bold;}
+
+.errorMsg,.confirmMsg, .resultMsg  { padding: .8em; text-align:center; margin-bottom: 1em; border: 2px solid #ddd;}
+.errorMsg  { background-color: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.confirmMsg { background-color: #FFF6BF; color: #817134; border-color: #FFD324; }
+.resultMsg { background-color: #E6EFC2; color: #529214; border-color: #C6D880; }
+.errorMsg a { background-color: transparent; color: #D12F19; }
+.confirmMsg a { background-color: transparent; color: #817134; }
+.successMsg a { background-color: transparent; color: #529214; }
+
+.xoopsCode { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; height: 200px; overflow: auto; font-size:.9em;}
+.xoopsQuote { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; font-size:.9em;}
+blockquote {font-style : italic; line-height:1.4em;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: .9em; color: #2A75C5; font-weight:bold; border: 1px solid #c0c0c0; background-color: #fff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2A75C5; font-weight:bold; font-size: .9em;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: .9em;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName a {color: #fff;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: .8em;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/*============== Styles for system_siteclosed.html  (override system module) =================*/
+#xo-siteclose {
+    width:                  400px;
+    margin:                 100px auto;
+    background-color:       #e2e2e2;
+    padding:                30px;
+    color:                  #000;
+    font-size:              1.2em;
+    font-weight:            bold;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+#xo-userbar_siteclosed {
+    display:                block;
+    background:             #2A75C5 url(../img/xo-banner_bg.png) repeat-x left top;
+    padding-top:            8px;
+    padding-right:          1em;
+    color:                  #fff;
+    font-size :             .8em;
+    text-align :            center;
+}
+#xo-userbar_siteclosed form {
+    display:                inline;
+    padding:                0;
+}
+
+#xo-userbar_siteclosed input, #xo-userbar_siteclosed button {
+    width:                  100px;
+    background-color:       transparent;
+    color:                  #fff;
+    font-size :             .9em;
+    margin:                 2px;
+}
+#xo-userbar_siteclosed input:hover {}
+
+/*============== Styles for system_redirect.html (override system module) =================*/
+#xo-redirect {
+    width:                  780px;
+    margin:                 50px auto;
+    padding:                1em;
+    font-weight:            bold;
+    text-align:             center;
+}
+#xo-redirect .notreload {
+    height:                 28px;
+    background-color:       inherit;
+    padding-top:            2px;
+    color:                  #000;
+}
+#xo-redirect .notreload a {
+    background-color:       inherit;
+    color:                  #ff0000;
+    font-weight:            bold;
+    text-decoration:        none;
+}
+#xo-redirect .message {
+    min-height:             60px;
+    background-color:       #f3f3f3;
+    padding:                1em;
+    color:                  #333;
+    font-size:              1.2em;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+#xo-redirect .message img{
+    padding:                1em;
+}
+/*============== Styles for pagenav =================*/
+#xo-pagenav {
+    margin:                 7px 0;
+    text-align:             center;
+    font-size:              1.05em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #fff;
+    background-color:       #2A75C5;
+    border:                 1px solid #fff;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #fff;
+    background-color:       #2A75C5;
+    border:                 1px solid #fff;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #000;
+    background-color:       #fff;
+    border:                 1px solid #000;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.2em;
+}
+/*======= Tinymce background textarea ========*/
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
